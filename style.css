@@ -1,96 +1,72 @@
-/* Pengaturan Dasar Body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #111; /* hitam */
+    background-color: #eee;
     margin: 0;
-    padding: 20px;
-    color: #eee;
 }
 
-/* Pembungkus utama */
-.container {
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: #1a1a1a; /* hitam abu */
-    padding: 20px;
-    box-shadow: 0 0 15px rgba(255,0,0,0.3);
-}
-
-/* Header */
+/* HEADER */
 header {
-    background-color: #b30000; /* merah gelap */
+    background-color: #4e79a7;
     color: white;
-    padding: 30px;
-    margin-bottom: 10px;
+    padding: 20px;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 22px;
-}
-
-/* Navigasi */
+/* NAVBAR */
 nav {
-    background-color: #000; /* hitam */
-    padding: 12px 20px;
-    margin-bottom: 20px;
+    background-color: #5c84ad;
+    padding: 10px;
 }
 
-nav a {
-    color: #ff4d4d; /* merah terang */
-    text-decoration: none;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
     margin-right: 20px;
-    font-weight: bold;
-    font-size: 14px;
 }
 
-/* Layout */
-.main-content {
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    color: purple;
+}
+
+/* MAIN CONTAINER */
+.container {
     display: flex;
-    gap: 25px;
+    padding: 20px;
 }
 
-/* Artikel */
-.articles {
-    flex: 3;
+/* CONTENT */
+.content {
+    width: 70%;
 }
 
-.card {
-    border: 1px solid #330000;
+.box {
+    border: 1px solid #7aa0c4;
     padding: 15px;
     margin-bottom: 20px;
-    border-radius: 4px;
-    background-color: #262626;
+    background-color: #f9f9f9;
 }
 
-.card h3 {
+.box h3 {
     margin-top: 0;
-    color: #ff4d4d;
 }
 
-/* Tombol */
-.btn-selengkapnya {
-    background-color: #b30000;
-    border: none;
-    color: white;
-    padding: 6px 12px;
-    cursor: pointer;
-    font-size: 12px;
+button {
+    margin-top: 10px;
 }
 
-/* Sidebar */
+/* SIDEBAR */
 .sidebar {
-    flex: 1;
-    border-left: 1px solid #330000;
+    width: 30%;
     padding-left: 20px;
-}
-
-.sidebar h4 {
-    margin-top: 0;
-    border-bottom: 2px solid #b30000;
-    padding-bottom: 5px;
-    color: #ff4d4d;
 }
 
 .sidebar ul {
@@ -99,18 +75,19 @@ nav a {
 }
 
 .sidebar ul li {
-    padding: 10px 0;
-    border-bottom: 1px solid #222;
-    font-size: 14px;
-    color: #ccc;
+    margin-bottom: 10px;
 }
 
-/* Footer */
+.sidebar ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* FOOTER */
 footer {
-    background-color: #000;
-    color: #ff4d4d;
-    padding: 15px 20px;
+    background-color: #4e79a7;
+    color: white;
+    text-align: left;
+    padding: 10px 20px;
     margin-top: 20px;
-    font-size: 12px;
-    text-align: center;
 }
