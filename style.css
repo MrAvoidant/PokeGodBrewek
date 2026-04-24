@@ -18,7 +18,7 @@ body {
 
 /* Header Ungu */
 header {
-    background-color: #9389a9;
+    background-color: #008000;
     color: white;
     padding: 30px;
     margin-bottom: 10px;
@@ -84,7 +84,7 @@ nav a {
 
 .sidebar h4 {
     margin-top: 0;
-    border-bottom: 2px solid #9389a9;
+    border-bottom: 2px solid #008000;
     padding-bottom: 5px;
 }
 
@@ -102,7 +102,7 @@ nav a {
 
 /* Footer Ungu */
 footer {
-    background-color: #9389a9;
+    background-color: #008000;
     color: white;
     padding: 15px 20px;
     margin-top: 20px;
