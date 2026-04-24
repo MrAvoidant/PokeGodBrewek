@@ -1,24 +1,25 @@
 /* Pengaturan Dasar Body */
 body {
     font-family: Arial, sans-serif;
-    background-color: red;
+    background-color: #111; /* hitam */
     margin: 0;
     padding: 20px;
+    color: #eee;
 }
 
-/* Pembungkus utama agar website berada di tengah */
+/* Pembungkus utama */
 .container {
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #1a1a1a; /* hitam abu */
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 15px rgba(255,0,0,0.3);
 }
 
-/* Header Ungu */
+/* Header */
 header {
-    background-color: #008000;
+    background-color: #b30000; /* merah gelap */
     color: white;
     padding: 30px;
     margin-bottom: 10px;
@@ -29,63 +30,67 @@ header h1 {
     font-size: 22px;
 }
 
-/* Navigasi Bar */
+/* Navigasi */
 nav {
-    background-color: #b1a7c4;
+    background-color: #000; /* hitam */
     padding: 12px 20px;
     margin-bottom: 20px;
 }
 
 nav a {
-    color: white;
+    color: #ff4d4d; /* merah terang */
     text-decoration: none;
     margin-right: 20px;
     font-weight: bold;
     font-size: 14px;
 }
 
-/* Pengaturan Layout Kolom (Flexbox) */
+/* Layout */
 .main-content {
     display: flex;
     gap: 25px;
 }
 
-/* Kolom Artikel (Kiri) */
+/* Artikel */
 .articles {
-    flex: 3; /* Mengambil ruang 3 kali lebih besar */
+    flex: 3;
 }
 
 .card {
-    border: 1px solid #ddd;
+    border: 1px solid #330000;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 4px;
+    background-color: #262626;
 }
 
 .card h3 {
     margin-top: 0;
-    color: #333;
+    color: #ff4d4d;
 }
 
+/* Tombol */
 .btn-selengkapnya {
-    background-color: #f0f0f0;
-    border: 1px solid #bbb;
+    background-color: #b30000;
+    border: none;
+    color: white;
     padding: 6px 12px;
     cursor: pointer;
     font-size: 12px;
 }
 
-/* Kolom Sidebar (Kanan) */
+/* Sidebar */
 .sidebar {
-    flex: 1; /* Mengambil ruang lebih kecil */
-    border-left: 1px solid #eee;
+    flex: 1;
+    border-left: 1px solid #330000;
     padding-left: 20px;
 }
 
 .sidebar h4 {
     margin-top: 0;
-    border-bottom: 2px solid #008000;
+    border-bottom: 2px solid #b30000;
     padding-bottom: 5px;
+    color: #ff4d4d;
 }
 
 .sidebar ul {
@@ -95,17 +100,17 @@ nav a {
 
 .sidebar ul li {
     padding: 10px 0;
-    border-bottom: 1px solid #f9f9f9;
+    border-bottom: 1px solid #222;
     font-size: 14px;
-    color: #444;
+    color: #ccc;
 }
 
-/* Footer Ungu */
+/* Footer */
 footer {
-    background-color: #008000;
-    color: white;
+    background-color: #000;
+    color: #ff4d4d;
     padding: 15px 20px;
     margin-top: 20px;
     font-size: 12px;
+    text-align: center;
 }
-
