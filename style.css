@@ -1,34 +1,91 @@
+. {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3f3f3;
+    color: #333;
+    width: 100%;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* HEADER */
+.header {
+    width: 90%;
+    margin: auto;
+    height: 120px;
+    line-height: 120px;
+    background: #417aa8;
+    color: #fff;
+}
+
+/* JARAK (padding) */
+.jarak {
+    padding: 0 20px;
+}
+
+/* MENU */
+.menu {
+    background-color: #417aa8;
+    height: 50px;
+    line-height: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* CONTENT */
 .content {
     width: 90%;
     margin: auto;
     padding: 10px;
     background: #fff;
     color: #333;
-    overflow: hidden; /* penting untuk clear float */
+    overflow: hidden; /* clear float */
 }
 
+/* KIRI */
+.kiri {
+    width: 70%;
+    float: left;
+}
+
+/* KANAN */
+.kanan {
+    width: 30%;
+    float: left;
+}
+
+/* BORDER BOX */
 .border {
     border: 2px solid #4887b9;
     margin-top: 10px;
     padding: 10px;
 }
 
-.kiri {
-    width: 70%;
-    float: left;
-    background: #fff;
-}
-
-.kanan {
-    width: 30%;
-    float: left;
-    background: #fff;
-}
-
+/* LINK */
 .undercor {
     text-decoration: none;
 }
 
+/* FOOTER */
 .footer {
     width: 90%;
     margin: auto;
